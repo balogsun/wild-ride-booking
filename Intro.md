@@ -1,6 +1,6 @@
 
 # Architecture
-![Screenshot 2024-05-28 182547](https://github.com/juggernaut09/wildrydes-site/assets/25864009/eca4897a-ba58-4246-bc36-7bf291633d4c)
+<img width="512" alt="image" src="https://github.com/user-attachments/assets/4e50984b-18a9-468a-a4cb-a03f03c34a11">
 
 # Wild Rydes Serverless Web Application
 This application allows users to request unicorn rides from the Wild Rydes fleet. The project includes an HTML-based user interface for indicating a pick-up location and a RESTful web service on the backend to submit requests for dispatching a unicorn. Additionally, it provides user registration and login functionalities to ensure a secure and personalized experience.
