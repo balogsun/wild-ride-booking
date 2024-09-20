@@ -9,11 +9,11 @@ The Wild Rydes serverless web application leverages AWS cloud services to delive
 
 ## The application consists of the following components:
 
-> Static Web Hosting: Hosted on AWS Amplify, providing HTML, CSS, JavaScript, and image files.
-> User Management: Managed by Amazon Cognito for secure authentication and authorization.
-> Serverless Backend: Implemented using AWS Lambda for handling business logic.
-> RESTful API: Exposed through Amazon API Gateway to interact with the Lambda functions.
-> Data Persistence: Utilizes Amazon DynamoDB for storing request data.
+- Static Web Hosting: Hosted on AWS Amplify, providing HTML, CSS, JavaScript, and image files.
+- User Management: Managed by Amazon Cognito for secure authentication and authorization.
+- Serverless Backend: Implemented using AWS Lambda for handling business logic.
+- RESTful API: Exposed through Amazon API Gateway to interact with the Lambda functions.
+- Data Persistence: Utilizes Amazon DynamoDB for storing request data.
 
 ## Technologies Used
 - **AWS Lambda**: provide backend process for handling requests from your web application, i.e. function that is invoked whebver a user requests a unicorn to be sent to a location of his/er choice. The function will select a unicorn from the fleet, record the request in a DynamoDB table and then respond to the front-end application with details about the unicorn being dispatched.
